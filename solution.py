@@ -171,8 +171,9 @@ def get_route(hostname):
                 break
             finally:
                 mySocket.close()
+    return tracelist2
 
 
 if __name__ == '__main__':
     # ping("google.co.il")
-    print(get_route("www.google.com"))
+    print(get_route("www.baidu.com"))
